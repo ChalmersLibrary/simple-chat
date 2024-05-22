@@ -1,0 +1,32 @@
+[
+  {
+    "nickname": "rolfis",
+    "text": "hej! någon där?!?",
+    "timestamp": 1716375976938,
+    "type": "text"
+  },
+  {
+    "nickname": "rolfis",
+    "gifUrl": "https://media0.giphy.com/media/IgGcxqawkRc6y43Z6I/200w.gif?cid=ebb56f5fowpmqejgdx9uv6p6nix8ofe8opehv4tevftd3ud1&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "timestamp": 1716375986778,
+    "type": "gif"
+  },
+  {
+    "nickname": "roffe",
+    "text": "jajjemän!",
+    "timestamp": 1716376494682,
+    "type": "text"
+  },
+  {
+    "nickname": "roffe",
+    "gifUrl": "https://media0.giphy.com/media/cYZkY9HeKgofpQnOUl/200w.gif?cid=ebb56f5fpvzy1dgq75cq8zllj7qk1rir0x8lrqb6o1ow0kky&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "timestamp": 1716376502473,
+    "type": "gif"
+  },
+  {
+    "nickname": "roffe",
+    "text": "rolig hund",
+    "timestamp": 1716376510613,
+    "type": "text"
+  }
+]
