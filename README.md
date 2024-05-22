@@ -56,9 +56,13 @@ This project was developed collaboratively. Here's how the collaboration was man
 ## License
 This project is licensed under the MIT License.
 
-### Fotnot
-This README.md was based on the following prompt:
+## Notes on ChatGPT collaboration
+We instructed ChatGPT on what to build for us and our requirements, in different iterations. For example, it firstly built the app with the Express framework, but we instructed it to just use the Socket.IO framework. GIPHY API was added later, as well as saving the messages to a JSON file on the server. It provided the correct code but we had to copy and paste it into a file structure.
 
-Kan du skapa en README.md med bra information för det här projektet, inklusive hur vi har samarbetat om koden och saker att tänka på, så att jag kan inkludera den i repositoriet där jag har koden på github? Skriv texten på engelska så att fler kan förstå.
+The text above in this README.md was based on the following prompt (in Swedish):
 
-So the information in this file is partly true, part lies from ChatGPT.
+_"Kan du skapa en README.md med bra information för det här projektet, inklusive hur vi har samarbetat om koden och saker att tänka på, så att jag kan inkludera den i repositoriet där jag har koden på github? Skriv texten på engelska så att fler kan förstå."_
+
+So the information in this file is partly true, part lies from ChatGPT. The notes in this README about Collaboration is just hallucinations or misunderstanding from ChatGPT, in that sense. We also had to add code about what port number to use (process.env.PORT || 3000) in order for it to work in an Azure App Service.
+
+Also, the secret GIPHY API Key is finally exposed in index.html for anyone connecting to see, even if it's kept locally in ```.env``` for the backend. 
