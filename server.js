@@ -5,7 +5,7 @@ const socketIo = require('socket.io');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const SECRET_CODE = "1234";
 const CHAT_FILE = path.join(__dirname, 'chat.json');
 const BATCH_SIZE = 20;
